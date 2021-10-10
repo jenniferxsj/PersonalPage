@@ -7,7 +7,7 @@ function newPage2() {
 }
 
 function snow() {
-  document.body.style.backgroundImage = "url('../img/bluesnow.png')";
+  document.body.style.backgroundImage = "url('./img/bluesnow.png')";
   document.getElementById('sidenav').style.backgroundColor = '#fffbf9';
   document.getElementById('header-section').style.backgroundColor = '#e5f2ff';
 }
