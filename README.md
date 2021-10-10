@@ -3,7 +3,7 @@ Author: Shujun Xiao
 
 The Page Website: https://jenniferxsj.github.io/PersonalPage/
 
-Video demostration: https://www.youtube.com/watch?v=LJRNzXdtFyw&ab_channel=JenniferXiao
+Video demostration: https://www.youtube.com/watch?v=ZGZk-ygmXDk&ab_channel=JenniferXiao
 
 ## Objectives
 - Build a personal website.
