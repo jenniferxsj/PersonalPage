@@ -5,6 +5,9 @@ The Page Website: https://jenniferxsj.github.io/PersonalPage/
 
 Video demostration: https://www.youtube.com/watch?v=LJRNzXdtFyw&ab_channel=JenniferXiao
 
+## Objectives
+- Build a personal website.
+- Learn and practive stuff on web development.
 
 ## Tech Requirements
 - HTML
@@ -22,6 +25,9 @@ Video demostration: https://www.youtube.com/watch?v=LJRNzXdtFyw&ab_channel=Jenni
 ![](https://jenniferxsj.github.io/PersonalPage/img/project-section.jpg)
 
 ![](https://jenniferxsj.github.io/PersonalPage/img/contactMe.jpg)
+
+## How to use
+Clone the code to your local computer, and run the index.html.
 
 ## Slides
 https://docs.google.com/presentation/d/1hekJnGTQEs-Hy7ytJ6rC62_t9WOsXcYiqtBKEQuYfow/edit?usp=sharing
