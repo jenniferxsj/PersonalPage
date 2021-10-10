@@ -1,0 +1,203 @@
+/*--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+--*/
+body{
+	padding:0;
+	margin:0;
+	font-family: 'Roboto Slab', serif;
+}
+body a{
+    transition:0.5s all;
+	-webkit-transition:0.5s all;
+	-moz-transition:0.5s all;
+	-o-transition:0.5s all;
+	-ms-transition:0.5s all;
+}
+input[type="button"]{
+	transition:0.5s all;
+	-webkit-transition:0.5s all;
+	-moz-transition:0.5s all;
+	-o-transition:0.5s all;
+	-ms-transition:0.5s all;
+}
+h1,h2,h3,h4,h5,h6{
+	margin:0;			   
+}	
+p{
+	margin:0;
+}
+ul{
+	margin:0;
+	padding:0;
+}
+label{
+	margin:0;
+}
+.top-menu{
+	padding-top: 2.2em;
+}
+.top-menu ul li{
+	display:inline-block;
+	text-transform:uppercase;
+	float:left;
+	margin: 0 8.5em;
+}
+.top-menu ul li a{
+	color:#FFFFFF;
+	text-decoration:none;
+	font-size:15px;
+	display:block;
+	padding:0.5em 1em;
+	font-weight:700;
+}	
+.top-menu ul li a:hover {
+	background: #FFD670;
+	color:#FFFFFF;
+}
+ul.social-icons li{
+	display:inline-block;
+}
+ul.details li{
+	display:inline-block;
+}
+.header-banner{
+	background: url("../img/header-banner.jpg") no-repeat;
+	min-height: 860px;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	position: relative;
+}
+.header-banner-info h2{
+	font-size:3em;
+	font-weight:300;
+	color:#FFFFFF;
+	margin: 1em 0 0.3em 0;
+}
+.header-banner-info h1{
+	font-size:5em;
+	font-weight:300;
+	color:#FFFFFF;
+}
+.header-banner-info span{
+	font-weight:700;
+	color:#FFFFFF;
+}
+.header-banner-info p{
+	font-weight:300;
+	color:#FFFFFF;
+	font-size:1.5em;
+	margin: 1.2em 0 1.6em 0;
+}
+ul.details li {
+	font-weight: 400;
+	color: #fff;
+	font-size: 17px;
+	margin: 0 4em;
+	letter-spacing: 3px;
+}
+ul.details li a {
+	font-weight: 700;
+	color: #FFD670;
+	font-size: 17px;
+}
+ul.details {
+	padding-top: 8em;
+}
+.header-banner-info {
+	padding-top: 12em;
+	position:relative;
+}
+i.public{
+	width: 60px;
+	height: 60px;
+	display: inline-block;
+	margin-right: 10px;
+	color:#6adc99;
+}
+i.public:hover{
+	width: 60px;
+	height: 60px;
+	display: inline-block;
+	margin-right: 10px;
+	color: #fcd5cf;
+}
+i.facebook{
+	width: 60px;
+	height: 60px;
+	display: inline-block;
+	margin-right: 10px;
+}
+i.facebook:hover{
+	width: 60px;
+	height: 60px;
+	display: inline-block;
+	margin-right: 10px;
+	opacity:0.5;
+}
+i.linkedin {
+	width: 60px;
+	height: 60px;
+	display: inline-block;
+}
+i.linkedin:hover{
+	width: 60px;
+	height: 60px;
+	background: url("../img/img-sprite.png") no-repeat -120px 0px;
+	display: inline-block;
+	opacity:0.5;
+}
+.header-banner-info label {
+	height: 2px;
+	width: 10%;
+	background: ##ffc107;
+	display: block;
+	position: absolute;
+	right: 45%;
+	bottom: 23%;
+}
+.header-banner-info span.line {
+	height: 2px;
+	width: 10%;
+	background: #C4C0CF;
+	display: block;
+	position: absolute;
+	right: 31.6%;
+	bottom: 23%;
+}
+
+/*----- responsive-design ------*/	
+ @media screen and (max-width:1280px){
+	.top-menu ul li {
+		margin: 0 8.5em;
+	}
+	.header-banner-info {
+		padding-top: 10em;
+	}
+	ul.details li {
+		margin: 0 3em;
+	}
+	.header-banner-info h1 {
+		font-size: 4.5em;
+	}
+	.header-banner-info label {
+		right: 58.5%;
+		bottom: 20.5%;
+	}
+	.header-banner-info span.line {
+		right: 31.5%;
+		bottom: 20.5%;
+	}
+	.header-banner-info p {
+		margin: 1em 0 1.5em 0;
+	}
+	.header-banner-info h2 {
+		font-size: 2.8em;
+		margin: 0.7em 0 0.2em 0;
+	}
+
+} 
