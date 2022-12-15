@@ -1,53 +1,648 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="author" content="Shujun Xiao">
-  <meta name="description" content="The homePage of Shujun Xiao Personal Website">
-  <title>Shujun Xiao Personal Website</title>
-  <link rel="icon" type="image/gif" href="./img/ninja.png">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Shujun Xiao" />
+    <meta
+      name="description"
+      content="The about page of Shujun Xiao Personal Website"
+    />
+    <title>About me</title>
+    <link rel="icon" type="image/gif" href="./img/ninja.png" />
 
-  <!--import the bootstrap style-->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
-  <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
-  <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900,200italic,300italic,400italic,600italic,700italic,900italic' rel='stylesheet' type='text/css'>
-  <script src="https://kit.fontawesome.com/8413fbf857.js" crossorigin="anonymous"></script>
-  <!--my own style sheet-->
-  <link rel="stylesheet" type="text/css" href="./css/style-index.css">
+    <!--import the bootstrap style-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="canonical"
+      href="https://getbootstrap.com/docs/5.1/examples/footers/"
+    />
 
-</head>
+    <!--font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Birthstone&family=Dancing+Script:wght@700&display=swap"
+      rel="stylesheet"
+    />
 
-<body>
-   <!-- header-section-starts -->
-    <div class="header">
-    <div class="header-banner">
-      <div class="container">
-        <div class="top-menu">
-            <span class="menu"> </span>
-              <div class="clearfix">
-              <ul>
-              <li><a href="./" class="scroll">Home</a></li>
-              <li><a href="./about.html" class="scroll">About</a></li>
-              <li><a href="./contact.html" class="scroll">contact</a></li>
-            </ul>
-            </div>
-            </div>
-        <div class="header-banner-info text-center">
-          <h2>HELLO</h2>
-          <h1>my name is <span>Shujun Xiao</span> </h1>
-          <p>I'm a computer science student. </p>        
-          <ul class="social-icons">
-            <li><a href="https://twitter.com/Jenniferxsj"><i class="fab fa-twitter fa-3x public"></i></a></li>
-            <li><a href="https://www.facebook.com/jenniferxsj"><i class="fab fa-facebook fa-3x public"></i></a></li>
-            <li><a href="https://www.linkedin.com/in/shujun-xiao-8595ba140/"><i class="fab fa-linkedin fa-3x public"></i></a></li>
-          </ul>
-          
-        </div>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Birthstone&family=Dancing+Script:wght@700&family=Open+Sans:ital,wght@0,400;1,600&display=swap"
+      rel="stylesheet"
+    />
+
+    <!--import bootstrap icon-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
+    />
+
+    <!--self-defined style-->
+    <link rel="stylesheet" type="text/css" href="./css/style-others.css" />
+    <script src="./js/about.js"></script>
+  </head>
+
+  <body>
+    <nav class="navbar header-color" id="header-section">
+      <div class="container top-menu">
+        <a class="navbar-brand color-blue" href="./">Shujun Xiao</a>
+        <ul class="nav col-12 col-md-auto mb-2">
+          <li>
+            <a href="./" class="nav-link px-2 link-secondary">About</a>
+          </li>
+          <li>
+            <a href="./contact.html" class="nav-link px-2 link-secondary"
+              >Contact</a
+            >
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="sidenav" id="sidenav">
+      <div class="menu">
+        <a href="#about">About Me</a>
+        <a href="#Education">Education</a>
+        <a href="#Courses_Skill">Courses/Skills</a>
+        <a href="#Projects">Projects</a>
       </div>
     </div>
-  </div>
-    <!-- header-section-ends -->
-    
-</body>
+
+    <!--content section-->
+    <div class="main">
+      <div class="container">
+        <section id="about">
+          <div>
+            <h1>About Me</h1>
+          </div>
+          <div class="row">
+            <div class="col-lg-8 pt-4 pt-lg-0 about">
+              <p>
+                My name is Shujun Xiao, a computer science student in
+                Northeastern University. Building a program and tacking problems
+                are things that excites me. That's why I want to be a software
+                development enginee in the future.
+              </p>
+              <ul>
+                <li>
+                  <i class="bi bi-chevron-right"></i>
+                  <strong>Phone: </strong>
+                  <span>1(669)265-8029</span>
+                </li>
+                <li>
+                  <i class="bi bi-chevron-right"></i>
+                  <strong>Email address: </strong>
+                  <span>xiao.shu@northeastern.edu</span>
+                </li>
+                <li>
+                  <i class="bi bi-chevron-right"></i>
+                  <strong>LinkedIn: </strong>
+                  <span
+                    ><a
+                      href="https://www.linkedin.com/in/shujun-xiao-8595ba140/"
+                      >https://www.linkedin.com/in/shujun-xiao-8595ba140/</a
+                    ></span
+                  >
+                </li>
+                <li>
+                  <i class="bi bi-chevron-right"></i>
+                  <strong>GitHub: </strong>
+                  <span
+                    ><a href="https://github.com/jenniferxsj"
+                      >https://github.com/jenniferxsj</a
+                    ></span
+                  >
+                </li>
+              </ul>
+            </div>
+            <div class="col-lg-4">
+              <img
+                class="img-fluid"
+                src="./img/AboutMe-2.jpg"
+                alt="Shujun, surrounding by flowers, is riding a bike "
+              />
+            </div>
+          </div>
+        </section>
+        <!--education start-->
+        <section id="Education">
+          <div>
+            <h1>Education</h1>
+          </div>
+          <div class="education">
+            <div class="col-lg-4">
+              <img
+                class="img-fluid"
+                src="./img/AboutMe.jpg"
+                alt="Shujun is sitting in a covered truck and smile"
+              />
+            </div>
+            <div class="col-8 pt-4 pt-lg-0">
+              <ul>
+                <li>
+                  <i class="bi bi-chevron-right"></i>
+                  <strong>M.S. in Computer Science</strong>
+                  <span>-- Spring 2023</span>
+                  <p>Northeastern University, Silicon Valley, CA</p>
+                </li>
+                <li>
+                  <i class="bi bi-chevron-right"></i>
+                  <strong>M.S. in Pharmacy</strong>
+                  <span>-- Oct. 2018</span>
+                  <p>University of Saskatchewan (UofS), Saskatoon, SK</p>
+                </li>
+                <li>
+                  <i class="bi bi-chevron-right"></i>
+                  <strong>B.S. in Biotechnology</strong>
+                  <span>-- June 2014</span>
+                  <p>
+                    South China Agricultural University (SCAU), Guangzhou, China
+                  </p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+        <!--End of education-->
+        <section id="Courses_Skill">
+          <div>
+            <h1>Skills/Courses</h1>
+          </div>
+          <div class="row skills">
+            <div class="col-lg-5">
+              <div class="progress">
+                <span class="skill">
+                  Java
+                  <i>90%</i>
+                </span>
+                <div class="progress-bar-wrap">
+                  <div
+                    class="progress-bar"
+                    aria-valuenow="90"
+                    aria-valuemin="0"
+                    role="progressbar"
+                    aria-valuemax="100"
+                    style="width: 90%"
+                  ></div>
+                </div>
+              </div>
+              <div class="progress">
+                <span class="skill">
+                  Python
+                  <i>80%</i>
+                </span>
+                <div class="progress-bar-wrap">
+                  <div
+                    class="progress-bar"
+                    aria-valuenow="80"
+                    aria-valuemin="0"
+                    role="progressbar"
+                    aria-valuemax="100"
+                    style="width: 80%"
+                  ></div>
+                </div>
+              </div>
+              <div class="progress">
+                <span class="skill">
+                  C
+                  <i>70%</i>
+                </span>
+                <div class="progress-bar-wrap">
+                  <div
+                    class="progress-bar"
+                    aria-valuenow="70"
+                    aria-valuemin="0"
+                    role="progressbar"
+                    aria-valuemax="100"
+                    style="width: 70%"
+                  ></div>
+                </div>
+              </div>
+              <div class="progress">
+                <span class="skill">
+                  React
+                  <i>80%</i>
+                </span>
+                <div class="progress-bar-wrap">
+                  <div
+                    class="progress-bar"
+                    aria-valuenow="80"
+                    aria-valuemin="0"
+                    role="progressbar"
+                    aria-valuemax="100"
+                    style="width: 80%"
+                  ></div>
+                </div>
+              </div>
+              <div class="progress">
+                <span class="skill">
+                  MySQL
+                  <i>80%</i>
+                </span>
+                <div class="progress-bar-wrap">
+                  <div
+                    class="progress-bar"
+                    aria-valuenow="80"
+                    role="progressbar"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                    style="width: 80%"
+                  ></div>
+                </div>
+              </div>
+              <div class="progress">
+                <span class="skill">
+                  Node.js
+                  <i>80%</i>
+                </span>
+                <div class="progress-bar-wrap">
+                  <div
+                    class="progress-bar"
+                    role="progressbar"
+                    aria-valuenow="80"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                    style="width: 80%"
+                  ></div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-5">
+              <div class="progress">
+                <span class="skill">
+                  JavaScript
+                  <i>80%</i>
+                </span>
+                <div class="progress-bar-wrap">
+                  <div
+                    class="progress-bar"
+                    aria-valuenow="80"
+                    aria-valuemin="0"
+                    role="progressbar"
+                    aria-valuemax="100"
+                    style="width: 80%"
+                  ></div>
+                </div>
+              </div>
+              <div class="progress">
+                <span class="skill">
+                  HTML/CSS/Bootstrap
+                  <i>90%</i>
+                </span>
+                <div class="progress-bar-wrap">
+                  <div
+                    class="progress-bar"
+                    aria-valuenow="90"
+                    aria-valuemin="0"
+                    role="progressbar"
+                    aria-valuemax="100"
+                    style="width: 90%"
+                  ></div>
+                </div>
+              </div>
+              <div class="progress">
+                <span class="skill">
+                  Android Studio
+                  <i>80%</i>
+                </span>
+                <div class="progress-bar-wrap">
+                  <div
+                    class="progress-bar"
+                    aria-valuenow="80"
+                    aria-valuemin="0"
+                    role="progressbar"
+                    aria-valuemax="100"
+                    style="width: 80%"
+                  ></div>
+                </div>
+              </div>
+              <div class="progress">
+                <span class="skill">
+                  Firebase
+                  <i>80%</i>
+                </span>
+                <div class="progress-bar-wrap">
+                  <div
+                    class="progress-bar"
+                    aria-valuenow="80"
+                    aria-valuemin="0"
+                    role="progressbar"
+                    aria-valuemax="100"
+                    style="width: 80%"
+                  ></div>
+                </div>
+              </div>
+              <div class="progress">
+                <span class="skill">
+                  MongoDB
+                  <i>70%</i>
+                </span>
+                <div class="progress-bar-wrap">
+                  <div
+                    class="progress-bar"
+                    aria-valuenow="70"
+                    role="progressbar"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                    style="width: 70%"
+                  ></div>
+                </div>
+              </div>
+              <div class="progress">
+                <span class="skill">
+                  Spring Boot
+                  <i>60%</i>
+                </span>
+                <div class="progress-bar-wrap">
+                  <div
+                    class="progress-bar"
+                    role="progressbar"
+                    aria-valuenow="60"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                    style="width: 60%"
+                  ></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!--end skills-->
+          <!--Start courses-->
+          <div>
+            <h2>Related Courses</h2>
+          </div>
+          <div class="row courses">
+            <div class="col-lg-6">
+              <div class="list">
+                <i class="bi bi-book"></i>
+                <strong
+                  >CS5001: Intensive Foundations of Computer Science</strong
+                >
+              </div>
+              <div class="list">
+                <i class="bi bi-book"></i>
+                <strong>CS5002: Discreet Structure</strong>
+              </div>
+              <div class="list">
+                <i class="bi bi-book"></i>
+                <strong
+                  >CS5008: Data Structures, Algorithms, and Their Applications
+                  within Computer Systems</strong
+                >
+              </div>
+              <div class="list">
+                <i class="bi bi-book"></i>
+                <strong>CS5520: Mobile Application Development</strong>
+              </div>
+              <div class="list">
+                <i class="bi bi-book"></i>
+                <strong>CS5600: Computer System</strong>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="list">
+                <i class="bi bi-book"></i>
+                <strong>CS5004: Object-Oriented Design</strong>
+              </div>
+              <div class="list">
+                <i class="bi bi-book"></i>
+                <strong>CS5610: Web Development</strong>
+              </div>
+              <div class="list">
+                <i class="bi bi-book"></i>
+                <strong>CS5800: Algorithms</strong>
+              </div>
+              <div class="list">
+                <i class="bi bi-book"></i>
+                <strong>CS5500: Foundation of Software Engineering</strong>
+              </div>
+              <div class="list">
+                <i class="bi bi-book"></i>
+                <strong>CS6140: Machine Learning</strong>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!--End courses-->
+        <!--Start projects-->
+        <section id="Projects">
+          <div>
+            <h1>Projects</h1>
+          </div>
+
+          <div class="container mx-auto mt-4">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="card" style="width: 32rem; height: 40rem">
+                  <img
+                    src="./img/pet_store_project.jpg"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">
+                      PetStore(online shopping website)
+                    </h5>
+                    <h6 class="card-subtitle mb-2 text-muted">
+                      built on JavaScript, React, Express, MongoDB
+                    </h6>
+                    <ul class="card-text">
+                      <li>
+                        Supported user management, browsing products,reviewing
+                        and commenting on products, and shopping carts
+                        management.
+                      </li>
+                      <li>
+                        The frontend was built using React, custom CSS, and
+                        Bootstrap, while the RESTful APIs were developed with
+                        Express and MongoDB. PayPal API was integrated to
+                        support various payment methods.
+                      </li>
+                      <li>Optimized based on usability test.</li>
+                    </ul>
+                    <div class="text-center">
+                      <a
+                        href="https://github.com/jenniferxsj/PetStore"
+                        class="btn"
+                        ><i class="fab fa-github"></i> Github</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-6">
+                <div class="card" style="width: 32rem; height: 40rem">
+                  <img
+                    src="./img/minione_project.jpg"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">MiniOne(social media web app)</h5>
+                    <h6 class="card-subtitle mb-2 text-muted">
+                      build on Java, Spring Boot, MySQL
+                    </h6>
+                    <ul class="card-text" style="padding-bottom: 50px">
+                      <li>
+                        Developed a social media web app that supports user
+                        managements, sharing posts to authorized users,
+                        commenting and “like” posts.
+                      </li>
+                      <li>
+                        The app was built with the MVC design pattern, Java and
+                        Spring Boot. The associate data were stored in the
+                        Amazon S3 while data were handled by MySQL, Hibernate,
+                        and JPA.
+                      </li>
+                    </ul>
+                    <div class="text-center">
+                      <a
+                        href="https://www.youtube.com/watch?v=jw-DWibbQO4&t=81s&ab_channel=JenniferXiao"
+                        class="btn"
+                        ><i class="fab fa-github"></i> Video Demo</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-6">
+                <div class="card" style="width: 32rem; height: 40rem">
+                  <img
+                    src="./img/calendar_project.jpg"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">
+                      Calendar(exercise tracker and organizer)
+                    </h5>
+                    <h6 class="card-subtitle mb-2 text-muted">
+                      built on HTML, Express, MongoDB
+                    </h6>
+                    <ul class="card-text">
+                      <li>
+                        Supported user management, and exercise arrangements in
+                        list form and in calendar form.
+                      </li>
+                      <li>
+                        The frontend was built on HTML/CSS/JavaScript and React
+                        Bootstrap, while the backend was implemented with
+                        Node.js, Express. The app was deployed on Heroku.
+                      </li>
+                      <li>
+                        A responsive calendar was established with the
+                        FullCalendar JavaScript library. The password was
+                        encrypted with bcrypt function.
+                      </li>
+                    </ul>
+                    <div class="text-center">
+                      <a
+                        href="https://github.com/jenniferxsj/Calendar"
+                        class="btn"
+                        ><i class="fab fa-github"></i> Github</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-6">
+                <div class="card" style="width: 32rem; height: 40rem">
+                  <img
+                    src="./img/todosiast_project.jpg"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">
+                      Todosiast (To-do list Android mobile app)
+                    </h5>
+                    <h6 class="card-subtitle mb-2 text-muted">
+                      build on Android Studio, Java, Firebase
+                    </h6>
+                    <ul class="card-text">
+                      <li>
+                        An android to-do list app that allowed user management,
+                        and to-do list arrangements.
+                      </li>
+                      <li>
+                        Built on Android Studio with Java. Firebase
+                        Authentication and Real-time Database were used to
+                        synchronize the adding, updating, and deleting lists
+                        from the app.
+                      </li>
+                      <li>
+                        Speech Recognizer were added to recognize and convert
+                        user voice into text input. Reward system including
+                        daily rewards and notification system were implemented
+                        to keep user engaged with the app.
+                      </li>
+                    </ul>
+                    <div class="text-center">
+                      <a
+                        href="https://github.com/cathy0114wei/Todosiast_final"
+                        class="btn"
+                        ><i class="fab fa-github"></i> Github</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!--Projects end-->
+      </div>
+    </div>
+
+    <div class="container">
+      <footer
+        class="
+          d-flex
+          flex-wrap
+          justify-content-between
+          align-items-center
+          py-3
+          my-4
+          border-top
+        "
+      >
+        <div class="col-md-4 d-flex align-items-center">
+          <span class="text-muted">&copy; Developed by Shujun Xiao</span>
+        </div>
+
+        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+          <li class="ms-3">
+            <a class="text-muted" href="https://www.facebook.com/jenniferxsj"
+              ><i class="bi bi-facebook"></i
+            ></a>
+          </li>
+          <li class="ms-3">
+            <a
+              class="text-muted"
+              href="https://www.linkedin.com/in/shujun-xiao-8595ba140/"
+              ><i class="bi bi-linkedin"></i
+            ></a>
+          </li>
+        </ul>
+      </footer>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>

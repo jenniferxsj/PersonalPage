@@ -62,7 +62,8 @@ a.color-blue {
   display: block;
 }
 .sidenav .menu a:hover {
-  color: #f2c1cb;
+  background: #FFD670;
+  color:#FFFFFF;
 }
 
 @media screen and (max-height: 450px) {
@@ -275,13 +276,6 @@ a.color-blue {
   display: flex; 
   justify-content: center
 }
-.hobbies {
-  padding-top: 30px;
-}
-.hobbies img {
-  padding-top: 15px;
-  text-align: center;
-}
 
 .contact {
   margin-left: 100px; 
@@ -358,4 +352,42 @@ a.color-blue {
   .bd-placeholder-img-lg {
     font-size: 3.5rem;
   }
+}
+
+/* ---------------------*/
+:root {
+  --gradient: linear-gradient(to left top, #799b96 10%, #799b96 90%) !important;
+}
+
+.card {
+  background: #ffffff;
+  border: 1px solid #799b96;
+  color: black;
+  margin-bottom: 2rem;
+}
+
+.btn {
+  border: 5px solid;
+  border-image-slice: 1;
+  background: var(--gradient) !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+  border-image-source:  var(--gradient) !important; 
+  text-decoration: none;
+  transition: all .4s ease;
+}
+
+.btn:hover, .btn:focus {
+      background: var(--gradient) !important;
+  -webkit-background-clip: none !important;
+  -webkit-text-fill-color: #fff !important;
+  border: 5px solid #fff !important; 
+  box-shadow: #222 1px 0 10px;
+  text-decoration: underline;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 18vw;
+    object-fit: cover;
 }
